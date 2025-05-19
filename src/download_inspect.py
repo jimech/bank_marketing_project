@@ -5,7 +5,8 @@ df = pd.read_csv("data/bank-full.csv", sep=";") #UCI dataset use ;
 
 # 2. We drop duration column- it leaks target info. (call duration is known after call is made)
 if 'duration' in df.columns:
-    df = df.drop(columns=["duration"])
+    df = df.drop(colup
+    /mns=["duration"])
     print("\nDropped 'duration' column.")
 
 # 3. Show shape
