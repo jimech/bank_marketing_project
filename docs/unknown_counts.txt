@@ -1,0 +1,7 @@
+Total rows: 45211
+
+Unknown values per column:
+job: 288
+education: 1857
+contact: 13020
+poutcome: 36959
